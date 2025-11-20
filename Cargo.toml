@@ -92,7 +92,7 @@ tag-name = "v{{version}}"
 # Don't release any crate unless its manifest has `release = true`
 release = false
 
-# The profile that 'cargo dist' will build with
-[profile.dist]
-inherits = "release"
-lto = "thin"
+# # The profile that 'cargo dist' will build with
+# [profile.dist]
+# inherits = "release"
+# lto = "thin"
